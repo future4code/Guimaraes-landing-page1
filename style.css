@@ -34,6 +34,30 @@ header > img {
     border-radius: 10px;
 }
 
+/* EDITANDO A MAIN */
+
+.frase-chamada{
+     
+     margin-left: 200px ;
+    padding-top: 30px ;
+    font-size: 30px;
+}
+
+.frase-efeito{
+    
+    margin-left: 375px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.opcoes{
+    margin-top: ;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
 /* EDITANDO O FOOTER */
 
 footer {
@@ -110,14 +134,7 @@ footer {
     max-width: 40px;
     max-height: 100%;
 }
-.home{
-     background-color: #ffbd59;
-}
-.descricao{
-    background-color: rgb(226, 157, 66);
 
-}  
 
-}
 
 
