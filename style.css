@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: Poppins;
 }
 
 /* EDITANDO O HEADER  */
 
 header {
-    background-color: #ff914d;
+    background-color: #403D3C;
     display: flex;
     height: 80px;
     justify-content: space-between;
@@ -30,45 +33,81 @@ header > img {
 
 .botoes > button {
     padding: 15px 30px;
-    background-color: #ffbd59;
+    background-color: #D2C2B0;
     border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 /* EDITANDO A MAIN */
 
-.frase-chamada{
-     
-     margin-left: 200px ;
-    padding-top: 30px ;
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 2vw;
+}
+
+.frase-chamada {     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 300px;
+    padding-top: 50px;
+}
+
+.frase-chamada > p {
     font-size: 30px;
 }
 
-.frase-efeito{
-    
-    margin-left: 375px;
-    padding-top: 15px;
-    font-size: 20px;
+.frase-efeito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.opcoes{
-    margin-top: ;
+.frase-efeito > p {
+    font-size: 20px;
+    padding-left: 108px;
+}
+
+
+.opcoes {
     display: flex;
     align-items: center;
-    justify-items: center;
-
+    justify-content: space-between;
+    border: 1px solid;
+    padding-top: 50px;
 }
+
+.faixa-foto {
+    display:grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 1fr;
+    background-color: red;
+    height: 50px;
+}
+
+.item-imagem {
+    border: 1px solid;
+}
+
+.item-texto {
+    padding-bottom: 500px;
+    font-weight: bold;
+}
+
 
 /* EDITANDO O FOOTER */
 
 footer {
-    position: fixed;
     width: 100%;
     height: 200px;
     display: flex;
     background-color: #ff914d;
     font-size: 25px;
     justify-content: space-around;
-    border: 1px solid black;
 }
 
 .produtos {
