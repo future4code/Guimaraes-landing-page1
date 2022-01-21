@@ -2,24 +2,22 @@
 *{
  margin: 0px;
  padding: 0px;
+ font-family: Poppins;
+
 }
 header {
-    background-color: #ff914d;
+    background-color: #403d3c;
     display: flex;
     height: 80px;
     justify-content: space-between;
     padding: 0px 30px;
     align-items: center;
+    
 }
 header > img {
     height: 200px;
     position: relative;
     top: 5px;
-}
-
-.porquinho{
-  
-
 }
 
 
@@ -33,18 +31,74 @@ header > img {
 }
 .botoes > button {
     padding: 15px 30px;
-    background-color: #ffbd59;
-    border-radius: 10px;
+    background-color: #D2C2B0;
+    border-radius: 15px;
+    font-size: 15px;
 
 }
 
+.frase-principal{
+    display: flex;
+    flex-direction: column;
+    padding-right: 300px;
+    padding-top: 60px;
+    margin-left: 10px ;
+    font-size: 40px;
+    font-family: Poppins;
+    color:#403d3c;
+    
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    padding-top: px;
+    margin-left: 40px ;
+    font-size: 20px;
+    font-family: Poppins;
+    color:#403d3c;
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    padding-top: 10px;
+    margin-left: 40px ;
+    font-size: 20px;
+    font-family: Poppins;
+    color:#403d3c;
+   
+}
+
+.botao-input {
+    padding: 15px;
+    background-color: #D2C2B0;
+    border-radius: 15px;
+    font-size: 15px;
+    
+}
+
+.perguntas{
+  display:flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-left: 40px;
+  align-items: flex-start;
+}
+
+
+
+
+
 footer {
-    position: fixed;
+    
     width: 100%;
     height: 200px;
     display: flex;
-    background-color: #ff914d;
-    font-size: 25px;
+    background-color: #403d3c;
+    font-size: 15px;
     justify-content: space-around;
     border: 1px solid black;
 }
@@ -52,7 +106,7 @@ footer {
 .produtos {
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .produtos > p {
