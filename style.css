@@ -85,7 +85,7 @@ main {
     display:grid;
     grid-template-rows: 2fr;
     grid-template-columns: 1fr;
-    background-color: red;
+    background-color: #403D3C;
     height: 50px;
 }
 
