@@ -1,25 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 *{
- margin: 0px;
- padding: 0px;
- font-family: Poppins;
-
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
 }
+
+/* EDITANDO O HEADER  */
+
 header {
+    
     background-color: #403d3c;
     display: flex;
     height: 80px;
     justify-content: space-between;
     padding: 0px 30px;
     align-items: center;
-    
 }
+
 header > img {
     height: 200px;
     position: relative;
     top: 5px;
 }
 
+.header > p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold; 
+    font-family:Arial, Helvetica, sans-serif;   
+   
+}   
 
 .navegue > a {
     color: white;
@@ -29,13 +40,18 @@ header > img {
     text-decoration: none;
     
 }
+
 .botoes > button {
     padding: 15px 30px;
-    background-color: #D2C2B0;
-    border-radius: 15px;
+    background-color: #ffbd59;
+    padding: 15px 15px;
+    background-color: #d2c2b0;
+    border-radius: 10px;
     font-size: 15px;
-
+    font-weight: bold;
 }
+
+/* Editando a main */
 
 .frase-principal{
     display: flex;
@@ -52,61 +68,66 @@ header > img {
 .cadastro{
     display: flex;
     flex-direction: column;
-    padding-top: px;
-    margin-left: 40px ;
+    padding-top: 30px; /* margem entre as escritas */
+    margin-left: 40px ; /*alinhamento espaçado do começo*/
+    font-size: 20px;
+    font-family: Poppins;
+    color:#403d3c;
+    
+     
+}
+
+.input{
+    display: flex;
+    padding-top: 30px; /* margem entre cadastro e cpf */
+    margin-left: 40px; /* alinhamento com o cadastro */
     font-size: 20px;
     font-family: Poppins;
     color:#403d3c;
     
 }
 
-.input {
+.input > button{
+  
+  text-align: left;
+
+}
+
+
+
+
+
+ .perguntas {
     display: flex;
     flex-direction: column;
-    padding-right: 5px;
-    padding-top: 10px;
-    margin-left: 40px ;
-    font-size: 20px;
-    font-family: Poppins;
-    color:#403d3c;
-   
-}
+    padding-top: 2px;
+ }
 
-.botao-input {
-    padding: 15px;
-    background-color: #D2C2B0;
-    border-radius: 15px;
-    font-size: 15px;
-    
-}
+ 
 
-.perguntas{
-  display:flex;
-  flex-direction: column;
-  padding-top: 10px;
-  margin-left: 40px;
-  align-items: flex-start;
-}
+
 
 
 
 
 
 footer {
-    
+    position: fixed;
     width: 100%;
+    position: static;
     height: 200px;
+    padding: 30px;
     display: flex;
+    background-color: #ff914d;
     background-color: #403d3c;
-    font-size: 15px;
+    font-size: 25px;
     justify-content: space-around;
     border: 1px solid black;
 }
-
 .produtos {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 2px;
 }
 
 .produtos > p {
@@ -121,12 +142,13 @@ footer {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    padding-top: 10px;
 }
 
 .institucional {
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 2px;
 }
 
 .institucional > p {
@@ -140,19 +162,20 @@ footer {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    padding-top: 10px;
 }
 
 .redes-sociais {
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 2px;
 }
 
 .redes-sociais > p {
     color: white;
     text-decoration: underline;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .coluna {
@@ -163,6 +186,14 @@ footer {
 }
 
 .coluna > a > img {
-    max-width: 40px;
+    max-width: 30px;
     max-height: 100%;
+    padding-top: 15px;
 }
+
+
+
+
+
+
+
