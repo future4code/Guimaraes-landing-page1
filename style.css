@@ -1,24 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 *{
- margin: 0px;
- padding: 0px;
- font-family: Poppins;
-
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
 }
-
- /* Início header */
-
- header {
-
-
-
 
 /* EDITANDO O HEADER  */
 
 header {
-    
-
     background-color: #403d3c;
     display: flex;
     height: 80px;
@@ -27,27 +17,13 @@ header {
     align-items: center;
 }
 
-
 header > p {
     color: white;
     font-size: 30px;
     font-weight: bold; 
     font-family:Arial, Helvetica, sans-serif;   
-
-header > img {
-    height: 200px;
-    position: relative;
-    top: 5px;
-
 }
 
-.header > p {
-    color: white;
-    font-size: 30px;
-    font-weight: bold; 
-    font-family:Arial, Helvetica, sans-serif;   
-   
-}   
 
 .navegue > a {
     color: white;
@@ -60,139 +36,86 @@ header > img {
 
 .botoes > button {
     padding: 15px 30px;
-
     background-color: #D2C2B0;
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
-
-    background-color: #ffbd59;
-    padding: 15px 15px;
-    background-color: #d2c2b0;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: bold;
 }
 
-
-/* Editando a main */
-
-.frase-principal{
-    display: flex;
-    flex-direction: column;
-    padding-right: 300px;
-    padding-top: 60px;
-    margin-left: 10px ;
-    font-size: 40px;
-    font-family: Poppins;
-    color:#403d3c;
-    
-}
-
-.cadastro{
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px; /* margem entre as escritas */
-    margin-left: 40px ; /*alinhamento espaçado do começo*/
-    font-size: 20px;
-    font-family: Poppins;
-    color:#403d3c;
-    
-     
-}
-
-.input{
-    display: flex;
-    padding-top: 30px; /* margem entre cadastro e cpf */
-    margin-left: 40px; /* alinhamento com o cadastro */
-    font-size: 20px;
-    font-family: Poppins;
-    color:#403d3c;
-    
-}
-
-.input > button{
-  
-  text-align: left;
-
-
-}
-
-
-/* Início Main */
+/* EDITANDO A MAIN */
 
 main {
- display:flex;
- flex-direction: column;
- padding:50px;
- gap:50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 2vw;
 }
 
-.inicio-pagina {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+.frase-chamada {     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 300px;
+    padding-top: 50px;
 }
 
-.inicio-pagina > p {
- font-size: 40px;
+.frase-chamada > p {
+    font-size: 50px;
 }
 
-.cadastro {
- display: flex;
- justify-content: space-between;
- font-size: 20px;
- font-weight: bold;
+.frase-efeito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.enviar {
- display:flex;
- flex-direction: column;
- margin-right:180px;
- gap: 15px;
+.frase-efeito > p {
+    font-size: 25px;
+    padding-left: 20px;
 }
 
-.enviar > label {
- font-size: 20px;
- }
-
-.botao > input {
- width: 280px;
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    background-color: #D2C2B0;
+    border-radius: 35px;
 }
 
-.botao > button {
- width: 100px;
- background-color: #403d3c;
- color:white;
- height:40px;
- border-radius: 10px;
- }
-
-.botao {
- display:flex;
+.item-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-left: 80px;
+    margin-top: 100px;
 }
 
-.cadastro > ul > li{
- margin-left: 50px;
- padding-top: 15px;
-
-
-}
-    
-.perguntas {
- display: flex;
- padding: 50px;
- background-color: #D2C2B0;
- border-radius: 35px;
- gap:25px;
- }
-
-.perguntas > p {
-font-size: 20px;
+.item-texto > h2{
+    font-size: 40px;
+    padding-right: 30px;
+    padding-bottom:40px ;
+    position: absolute;
+    top:  400px;
 
 }
 
-/* Início Footer */
+.item-texto > ul{
+    font-size: 25px;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.item-texto > ul > li{
+    padding-bottom: 15px;
+
+}
+.card > img{
+
+
+
+}
+/* EDITANDO O FOOTER */
 
 footer{
     display:flex;
@@ -213,41 +136,18 @@ footer{
 }
 
 .links {
-
-
- .perguntas {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2px;
- }
-
- 
-
-
-
-
-
-
-
-footer {
-    position: fixed;
-    width: 100%;
-
     position: static;
     height: 200px;
     padding: 30px;
     display: flex;
-    background-color: #ff914d;
     background-color: #403d3c;
     font-size: 25px;
     justify-content: space-around;
 }
+
 .produtos {
     display: flex;
     flex-direction: column;
-
-    padding-top: 2px;
-
 }
 
 .produtos > p {
@@ -266,9 +166,6 @@ footer {
 .institucional {
     display: flex;
     flex-direction: column;
-
-    padding-top: 2px;
-
 }
 
 .institucional > p {
@@ -287,19 +184,12 @@ footer {
 .redes-sociais {
     display: flex;
     flex-direction: column;
-
-
-    padding-top: 2px;
-
 }
 
 .redes-sociais > p {
     color: white;
     text-decoration: underline;
     text-transform: uppercase;
-
-    margin-bottom: 15px;
-
 }
 
 .coluna {
@@ -309,11 +199,10 @@ footer {
 }
 
 .coluna > a > img {
-    max-width: 30px;
+    max-width: 40px;
     max-height: 100%;
     padding-top: 15px;
 }
-
 
 .direitos{
 background-color: black;
@@ -324,13 +213,6 @@ text-transform: uppercase;
 align-items: center;
 display: flex;
 justify-content: center;
-
 }
-
-
-
-
-
-
 
 
