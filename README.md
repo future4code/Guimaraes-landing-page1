@@ -9,7 +9,7 @@ Alinhamos o trello, tivemos reuniões em vídeo chamada e conversas diariamente 
 Ajustamos o Git bash, sempre verificando o gráfico do projeto no Github.
 Usamos a linguagem HTML/CSS , assimilando a responsavidade.
 
-link surge: absorbing-design.surge.sh
+link surge: rambunctious-leg.surge.sh
 
 
 
