@@ -82,14 +82,16 @@ main {
 .apresentacao > h3 {
     font-size: 30px;
     text-transform: uppercase;
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
+
+/* CARD 1  */
 
 .card-nivel-1 {
     display: flex;
     background-color: #d2c2b0;
     border-radius: 35px;
-    width: 100%;
+    /* width: 100%; */
     height: 500px;
     justify-content: space-between;
     /* border: 1px solid; */
@@ -98,7 +100,10 @@ main {
 
 .card-nivel-1 > img {
     /* border: 1px solid; */
-    padding: 50px;
+    /* padding: 50px; */
+    border-radius: 35px;
+    margin: 50px;
+    width: 600px;
 }
 
 .detalhe-card-1 {
@@ -109,11 +114,9 @@ main {
     align-items: center;
     /* border: 1px solid; */
     border-radius: 35px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    margin-right: 200px;
-    padding-left: 50px;
-    padding-right: 30px;
+    margin: 50px;
+    padding-left: 20px;
+ 
 }
 
 .detalhe-card-1 > p {
@@ -133,7 +136,7 @@ main {
     padding: 10px 0px;
 }
 
-.detalhe-card-1 > button {
+/* .contratar > button {
     background-color: #403d3c;
     color: white;
     border-color: white;
@@ -144,14 +147,14 @@ main {
     margin-right: 20px;
     margin-top: 20px;
 
-}
+} */
 
 /* CARD-2 */
 
 .card-nivel-2 {
     display: flex;
-    background-color: black;
-    width: 100%;
+    background-color: #d2c2b0;
+    /* width: 100%; */
     height: 500px;
     justify-content: space-between;
     /* border: 1px solid; */
@@ -160,24 +163,25 @@ main {
 
 .card-nivel-2 > img {
     /* border: 1px solid; */
-    padding: 50px;
+    /* padding: 50px; */
+    border-radius: 35px;
+    margin: 50px;
 }
 
 .detalhe-card-2 {
-    background-color: #d2c2b0;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* border: 1px solid; */
     border-radius: 35px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    margin-right: 200px;
-    padding-left: 50px;
-    padding-right: 30px;
+    margin: 50px;
+    padding-left: 20px;
+
 }
 
 .detalhe-card-2 > p {
+    color: white;
     font-size: 25px;
     padding-top: 50px;
     font-weight: bold;
@@ -187,6 +191,7 @@ main {
 }
 
 .detalhe-card-2 > ul {
+    color: white;
     font-size: 20px;
 }
 
@@ -194,7 +199,7 @@ main {
     padding: 10px 0px;
 }
 
-.detalhe-card-2 > button {
+/* .contratar > button {
     background-color: #403d3c;
     color: white;
     border-color: black;
@@ -205,14 +210,14 @@ main {
     margin-right: 20px;
     margin-top: 20px;
 
-}
+} */
 
 /* CARD 3 */
 
 .card-nivel-3 {
     display: flex;
     background-color: #d2c2b0;
-    width: 100%;
+    /* width: 100%; */
     height: 500px;
     justify-content: space-between;
     /* border: 1px solid; */
@@ -222,7 +227,9 @@ main {
 
 .card-nivel-3 > img {
     /* border: 1px solid; */
-    padding: 50px;
+    margin: 50px;
+    border-radius: 35px;
+    width: 600px;
 }
 
 .detalhe-card-3 {
@@ -233,11 +240,9 @@ main {
     align-items: center;
     border: 1px solid;
     border-radius: 35px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    margin-right: 200px;
-    padding-left: 50px;
-    padding-right: 30px;
+    margin: 50px;
+    padding-left: 20px;
+
 }
 
 .detalhe-card-3 > p {
@@ -257,7 +262,22 @@ main {
     padding: 10px 0px;
 }
 
-.detalhe-card-3 > button {
+.contratar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 40px;
+}
+
+.contratar > p {
+    font-size: 25px;
+    padding-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.contratar > button {
     background-color: #403d3c;
     color: white;
     border-color: white;
@@ -267,12 +287,29 @@ main {
     border-radius: 15px;
     margin-right: 20px;
     margin-top: 20px;
-
 }
 
 /* EDITANDO O FOOTER */
 
-footer {
+footer{
+    display:flex;
+    flex-direction:column;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-between;
+    background-color: #403d3c;
+    height:30px;
+    padding: 10px 100px;
+}
+
+.dados > p{
+    color: white;
+
+}
+
+.links {
     position: static;
     height: 200px;
     padding: 30px;
@@ -280,7 +317,6 @@ footer {
     background-color: #403d3c;
     font-size: 25px;
     justify-content: space-around;
-    border: 1px solid black;
 }
 
 .produtos {
@@ -342,3 +378,13 @@ footer {
     padding-top: 15px;
 }
 
+.direitos{
+background-color: black;
+height: 80px;
+color: white;
+text-align:center ;
+text-transform: uppercase;
+align-items: center;
+display: flex;
+justify-content: center;
+}
